@@ -51,3 +51,6 @@ nav a {
   flex-direction: column;
   justify-content: center;
 }
+
+.image-content span {
+  background-color: black;
