@@ -75,6 +75,7 @@ nav a {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  height: 700px;
 }
 
 .products h2 {
@@ -104,15 +105,13 @@ nav a {
   margin: 10px;
 }
 
-.image h4 {
-  margin: 10px 0px;
-}
+
 
 .locations {
   display: flex;
   position: relative;
   top: 140px;
-  height: 570px;
+  height: 580px;
   width: 1200px;
   background-image: url(./../img-locations-background.jpg);
   margin: 0 auto;
@@ -122,20 +121,32 @@ nav a {
 }
 
 .text {
-  display: block;
   margin: 0 auto;
   justify-content: center;
+  padding-top: 70px;
 }
 
 .squares {
   display: inline-flex;
   justify-content: center;
-
 }
 
 .location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: black;
   opacity: 1;
   width: 300px;
-  margin: 0 20px;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+.location p {
+  margin: 22px 0;
+}
+
+.location h3 {
+  margin: 0px;
+  padding: 10px;
 }
