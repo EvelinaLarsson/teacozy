@@ -74,6 +74,7 @@ nav a {
   top: 130px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .products h2 {
@@ -84,4 +85,17 @@ nav a {
 .products h4 {
   margin: 0px;
   padding: 10px;
+}
+
+.products img {
+  width: 300px;
+  height: 200px
+}
+
+.images {
+  display: inline-flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
 }
