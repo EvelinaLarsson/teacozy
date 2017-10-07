@@ -99,3 +99,11 @@ nav a {
   justify-content: center;
   margin: 0 auto;
 }
+
+.image img {
+  margin: 10px;
+}
+
+.image h4 {
+  margin: 10px 0px;
+}
