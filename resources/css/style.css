@@ -16,6 +16,7 @@ header {
   border-bottom: 1px solid seashell;
   align-items: center;
   background-color: black;
+  top: 0px;
 }
 
 .logo {
@@ -40,8 +41,8 @@ nav a {
 .banner {
   display: flex;
   position: relative;
-  top: 70px;
-  height: 800px;
+  top: 63px;
+  height: 700px;
   width: 1200px;
   background-image: url(./../img-mission-background.jpg);
   margin: 0 auto;
@@ -85,7 +86,8 @@ nav a {
 
 .products h4 {
   margin: 0px;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .products img {
@@ -101,11 +103,14 @@ nav a {
   margin: 0 auto;
 }
 
-.image img {
-  margin: 10px;
+.images img {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-
+.image {
+  padding: 5px;
+}
 
 .locations {
   display: flex;
@@ -124,6 +129,10 @@ nav a {
   margin: 0 auto;
   justify-content: center;
   padding-top: 70px;
+}
+
+.text h2 {
+  margin: 10px;
 }
 
 .squares {
@@ -155,6 +164,10 @@ footer {
   position: relative;
   top: 140px;
   height: 200px;
+}
+
+footer h2 {
+  margin: 10px;
 }
 
 #copyright {
