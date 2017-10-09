@@ -150,3 +150,16 @@ nav a {
   margin: 0px;
   padding: 10px;
 }
+
+footer {
+  position: relative;
+  top: 140px;
+  height: 200px;
+}
+
+#copyright {
+  text-align: left;
+  position: relative;
+  top: 140px;
+  padding-left: 20px;
+}
